@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Costos con Métodos de Pago</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simulador de Costos</h1>
+    <div class="productos">
+      <h2>Productos Disponibles</h2>
+      <select id="productoSeleccionado"></select>
+      <button id="btnAgregarCarrito">Agregar al Carrito</button>
+    </div>
+    <div class="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="carritoLista"></ul>
+      <p>Total de la compra: $<span id="totalCompra">0</span></p>
+      <div class="metodo-pago">
+        <h3>Método de Pago</h3>
+        <select id="metodoPagoSeleccionado">
+          <option value="1">Billetera</option>
+          <option value="2">6 Cuotas</option>
+          <option value="3">12 Cuotas</option>
+          <option value="4">Un Pago</option>
+        </select>
+      </div>
+      <div id="cuotasInfo"></div>
+      <button id="btnCalcular">Calcular Total</button>
+      <p id="mensajeResultado"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="productos.json"></script>
+</body>
+</html>

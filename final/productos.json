@@ -1,0 +1,19 @@
+
+[
+  {
+    "nombre": "Pantalon",
+    "precio": 100
+  },
+  {
+    "nombre": "remera",
+    "precio": 200
+  },
+  {
+    "nombre": "ropa interior",
+    "precio": 150
+  },
+  {
+    "nombre": "zapatillas",
+    "precio": 300
+  }
+]
